@@ -159,16 +159,16 @@ input::placeholder {
 }
 
 .builder>img{
-    width: 104%;
-    height: 65vh;
+    width: 100%;
+    height: 300px;
     position: absolute;
     top: 20px;
 }
 .builder2{
     width: 80%;
     position: absolute;
-    top: 90px;
-    right: 60px;
+    top: 60px;
+    right: 50px;
 }
 .rename{
     color:#6d6f89;
@@ -287,10 +287,21 @@ color:#9ca3af;
 .damnit{
    color: #aeacb0
 }
-.click :hover {
+.click :hover !important{
     background-color: white;
     color: black;
 }
 .scam{
     color: purple;
+}
+@media (max-width:320px) {
+.builder>img{
+    width: 100%;
+    height: 150px;
+}
+
+.builder2{
+    top: 40px;
+    right: 30px;
+}
 }
