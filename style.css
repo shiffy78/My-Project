@@ -287,7 +287,7 @@ color:#9ca3af;
 .damnit{
    color: #aeacb0
 }
-.click :hover !important{
+.click :hover {
     background-color: white;
     color: black;
 }
